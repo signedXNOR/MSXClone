@@ -1,0 +1,1 @@
+gcc  -Os -fdata-sections -ffunction-sections -fipa-pta mswpUI.c mswpUI.h minesweeper.c minesweeper.h -lraylib -lgdi32 -lwinmm -Wl,--gc-sections -Wl,-O1 -Wl,--as-needed -Wl,--strip-all

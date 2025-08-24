@@ -1,0 +1,38 @@
+correct offsets:
+[0]: -31
+[1]: -30
+[2]: -29
+[3]: -1
+[4]: +1
+[5]: +29
+[6]: +30
+[7]: +31
+
+
+Exhibit A:
+cell num: 183
+[2]: -29 CORRECT
+[4]: -28 INCORRECT (+29 off from +1)
+[5]: +1 INCORRECT (+28 off from +29)
+[6]: +31 INCORRECT (+1 off from 30)
+[7]: +62 INCORRECT (+31 off from +31)
+
+Exhibit B:
+cell num: 219
+[2]: -29 CORRECT
+[4]: -28 INCORRECT (+29 off from +1)
+
+Exhibit C:
+cell num: 192
+[0]: -31 CORRECT
+[5]: +58 INCORRECT (+29 off from +29)
+[6]: +88 INCORRECT (+58 off from +30)
+
+Exhibit D:
+cell num:  395
+[0]: -31 CORRECT
+[1]: -61 INCORRECT (-31 off from -30)
+[3]: -62 INCORRECT (-61 off from -1)
+[5]: -33 INCORRECT (-62 off from +29)
+[6]: -3 INCORRECT (-33 off from +30)
+[7]: +28 INCORRECT (-3 off from +31)
